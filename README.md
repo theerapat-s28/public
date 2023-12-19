@@ -7,3 +7,17 @@ or
 ```shell
 wget -O ${file_name} http://lionsublime.com/README.md
 ```
+---
+#### Encryption
+- Install software
+```shell
+sudo dnf install gnupg
+```
+- Basic encrypted command
+```shell
+gpg --batch --output ${output_file_name} --passphrase ${password} --symmetric ${target_file_path}
+```
+- Basic decrypted command
+```shell
+gpg --batch --output ${output_file_name} --passphrase ${password} --decrypt ${target_file_path}
+```
