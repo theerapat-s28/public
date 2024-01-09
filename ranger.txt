@@ -1,0 +1,20 @@
+# Ranger Cheat Sheet
+
+Use ranger with `. ranger` to go around with current active directory.
+
++------------------------+-----------------------------------------------------+
+| Shortcut key           |                       Action                        |
++------------------------+-----------------------------------------------------+
+| spacebar               | Select multiple items                               |
+| d -> S+d -> enter -> y | Delete                                              |
+| d -> S+t -> enter -> y | Trash                                               |
+| a                      | Rename                                              |
+| dd -> pp               | Move                                                |
+| :mkdir ${dir}          | Create directory                                    |
+| :touch ${file}         | Create file                                         |
++------------------------+-----------------------------------------------------+
+
+Notes:
+  ->   =  then
+  S    =  Shift
+  :    =  Command like nvim
