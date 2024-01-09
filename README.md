@@ -1,3 +1,7 @@
+# Public
+---
+Public is a project that contain files that are not concerned about privacy for easy download via lionsublime.com
+
 #### Download command with `wget`
 
 ```shell
